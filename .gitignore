@@ -1,0 +1,31 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local secrets
+.env
+.env.*
+
+# Dataset images
+dataset/
+
+# Trained model files
+model/*.pkl
+model/*.joblib
